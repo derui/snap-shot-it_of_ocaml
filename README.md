@@ -24,17 +24,25 @@ This library provides bindings for [https://github.com/bahmutov/snap-shot-it](sn
    "snap-shot-it" {test}
    ```
 
+1. Install npm package to use this library.
+
+    ```shell
+    $ npm install --save-dev snap-shot-it mocha
+    ```
+
 ## Development ##
 
 ### Build ###
 
-```
+```shell
 jbuilder build
 ```
 
 ### Test ###
 
-```
+```shell
+# only once
+npm install --save-dev mocha
 jbuilder runtest
 ```
 
