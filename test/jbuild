@@ -1,0 +1,12 @@
+(jbuild_version 1)
+
+(alias
+ ((name runtest)
+  (deps (test_snap_shot.bc.js))
+  (action (run npm run test))))
+
+(executable
+ ((name test_snap_shot)
+  (libraries (js_of_ocaml snap-shot-it_of_ocaml mocha_of_ocaml))
+  (js_of_ocaml ((flags ("--pretty"))))
+  (preprocess (pps (js_of_ocaml-ppx)))))

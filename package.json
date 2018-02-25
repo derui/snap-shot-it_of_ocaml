@@ -1,0 +1,15 @@
+{
+  "name": "snap-shot-it_of_ocaml",
+  "version": "1.0.0",
+  "description": "This library provides bindings for [https://github.com/bahmutov/snap-shot-it](snap-shot-it) to use with js\\_of\\_ocaml.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --colors _build/default/test/test_snap_shot.bc.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "snap-shot-it": "^4.0.1"
+  }
+}

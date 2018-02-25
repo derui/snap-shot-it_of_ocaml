@@ -1,0 +1,7 @@
+(jbuild_version 1)
+
+(library
+ ((name snap_shot_it_of_ocaml)
+  (public_name snap-shot-it_of_ocaml)
+  (libraries (js_of_ocaml))
+  (preprocess (pps (js_of_ocaml-ppx)))))
